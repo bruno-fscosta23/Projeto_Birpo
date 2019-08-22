@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="150dp"
+    android:layout_height="220dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgProduto"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="#2d2dd2"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/idTxtProduto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgProduto"
+            android:layout_marginLeft="15dp"
+            android:text="Produto"
+            android:textColor="#D32222"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/idTxtExpProduto"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/idTxtProduto"
+            android:layout_marginLeft="15dp"
+            android:text="(Exp)"
+            android:textColor="#911E1E"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/imgProduto"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@+id/idTxtProduto"
+            android:id="@+id/btnComprar"
+            android:background="@drawable/ic_local_grocery_store" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

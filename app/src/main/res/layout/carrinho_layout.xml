@@ -7,20 +7,28 @@
     tools:context=".Carrinho_Activity">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/idToobarCarrinho"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/toobar_birpo"
-        android:id="@+id/idToobarCarrinho">
+        android:background="@drawable/toobar_birpo">
 
         <Button
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="@drawable/ic_dehaze"/>
+            android:background="@drawable/ic_dehaze" />
 
         <ImageView
             android:layout_width="130dp"
             android:layout_height="match_parent"
-            android:src="@drawable/birpo_min"
-            android:layout_marginLeft="115dp"/>
+            android:layout_marginLeft="115dp"
+            android:src="@drawable/birpo_min" />
     </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/idToobarCarrinho">
+
+    </androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>

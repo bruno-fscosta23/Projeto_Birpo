@@ -19,7 +19,6 @@ public class Carrinho_Activity extends AppCompatActivity {
         setContentView(R.layout.carrinho_layout);
 
         toolbar = (Toolbar)findViewById(R.id.idToobarCarrinho);
-
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
