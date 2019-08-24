@@ -1,50 +1,50 @@
 package br.sp.senac.projeto_birpo;
 
 public class Produtos {
-    private String nome;
-    private String codigo;
-    private String desc;
-    private int imagem;
+    private String nProduto;
+    private String dProduto;
+    private int bProduto;
+    private int imgProduto;
 
     public Produtos() {
     }
 
-    public Produtos(String nome, String codigo, String desc, int imagem) {
-        this.nome = nome;
-        this.codigo = codigo;
-        this.desc = desc;
-        this.imagem = imagem;
+    public Produtos(String nProduto, String dProduto, int bProduto, int imgProduto) {
+        this.nProduto = nProduto;
+        this.dProduto = dProduto;
+        this.bProduto = bProduto;
+        this.imgProduto = imgProduto;
     }
 
-    public String getNome() {
-        return nome;
+    public String getnProduto() {
+        return nProduto;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getdProduto() {
+        return dProduto;
     }
 
-    public String getCodigo() {
-        return codigo;
+    public int getbProduto() {
+        return bProduto;
     }
 
-    public void setCodigo(String codigo) {
-        this.codigo = codigo;
+    public int getImgProduto() {
+        return imgProduto;
     }
 
-    public String getDesc() {
-        return desc;
+    public void setnProduto(String nProduto) {
+        this.nProduto = nProduto;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setdProduto(String dProduto) {
+        this.dProduto = dProduto;
     }
 
-    public int getImagem() {
-        return imagem;
+    public void setbProduto(int bProduto) {
+        this.bProduto = bProduto;
     }
 
-    public void setImagem(int imagem) {
-        this.imagem = imagem;
+    public void setImgProduto(int imgProduto) {
+        this.imgProduto = imgProduto;
     }
 }

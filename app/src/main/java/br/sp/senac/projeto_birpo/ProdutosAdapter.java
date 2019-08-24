@@ -39,9 +39,9 @@ public class ProdutosAdapter extends RecyclerView.Adapter<ProdutosAdapter.Myview
 
     @Override
     public void onBindViewHolder(@NonNull MyviewHolder holder, int position) {
-        holder.textView.setText(mData.get(position).getNome());
-        holder.textView1.setText(mData.get(position).getCodigo());
-        holder.imageView.setImageResource(mData.get(position).getImagem());
+        holder.textView.setText(mData.get(position).getnProduto());
+        holder.textView1.setText(mData.get(position).getdProduto());
+        holder.imageView.setImageResource(mData.get(position).getImgProduto());
 
     }
 
